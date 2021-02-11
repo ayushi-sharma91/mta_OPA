@@ -20,4 +20,4 @@ phases:
        - echo "Deploying as"
        - echo $SCP_USER
        - cf login -u $SCP_USER -p $SCP_PW -o 6b070fabtrial -s dev 
-       - cf push -u none -c cat OPA
+       - cf push -u none -c cat mta_opa_test
