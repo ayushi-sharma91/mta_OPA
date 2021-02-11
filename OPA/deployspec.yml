@@ -19,5 +19,5 @@ phases:
        - cf api https://api.cf.eu10.hana.ondemand.com #SCP@AWS FRA 
        - echo "Deploying as"
        - echo $SCP_USER
-       - cf login -u $SCP_USER -p $SCP_PW -o 272f5985trial -s dev 
+       - cf login -u $SCP_USER -p $SCP_PW -o 6b070fabtrial -s dev 
        - cf push -u none -c cat OPA
